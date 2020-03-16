@@ -7,6 +7,6 @@ class App < Sinatra::Base
   end
 
   post '/checkout' do
-    erb :show
+    erb :checkout
   end
 end
