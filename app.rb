@@ -15,6 +15,5 @@ class App < Sinatra::Base
     @item = session[:item] = params[:item]
     @session = session
     erb :checkout
-    binding.pry
   end
 end
